@@ -1,0 +1,51 @@
+# Folder for ingesting code repositories
+/ingest/*
+/archive
+
+# Coding scratchpad
+.scratchpad
+
+# Local vectorestore db
+*.pkl
+
+# Python-specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Secrets files
+secrets.json
+.env
+.env/
+dev/
+
+# Virtual environment directories
+venv/
+.pyenv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# macOS-specific files
+.DS_Store
+
+# Dataset files or temporary data files
+*.csv
+*.json
+*.txt
+*.tsv
+*.pickle
+
+# Log files
+logs/
